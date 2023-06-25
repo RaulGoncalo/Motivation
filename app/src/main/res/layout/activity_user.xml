@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.UserActivity">
+
+    <TextView
+        android:id="@+id/text_lest_begin"
+        android:text="@string/lets_begin"
+        android:fontFamily="@font/cabin"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="16dp"
+        android:inputType="text"
+        android:fontFamily="@font/cabin"
+        android:hint="@string/your_name"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:text="@string/save"
+        android:fontFamily="@font/cabin"
+        android:textSize="20sp"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="32dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/light_purple"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
